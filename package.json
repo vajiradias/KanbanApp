@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "build": "node ./bin/www"
+    "build": "webpack",
+    "start": "webpack-dev-server"
   },
   "dependencies": {
     "body-parser": "~1.16.0",
@@ -15,6 +16,8 @@
     "serve-favicon": "~2.3.2"
   },
   "devDependencies": {
-    "webpack": "^2.2.1"
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.3.0",
+    "webpack-merge": "^2.6.1"
   }
 }
